@@ -66,5 +66,5 @@ nextBtn.addEventListener('click', () => {
 });
 
 button.addEventListener('click', () => {
-    
+    showInfo(Math.floor(Math.random() * reviews.length));
 });
